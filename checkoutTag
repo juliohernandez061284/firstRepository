@@ -1,0 +1,7 @@
+#checkout de tag
+git checkout v1.1
+# Create a new branch from tag v1.1
+git checkout -b newbranch v1.1
+# Do some work and commit it
+# Create a new tag from your work
+git tag -a -m "Tag version 1.1.1, a bugfix release" v1.1.1
